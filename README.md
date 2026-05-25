@@ -42,12 +42,12 @@ fmt.Printf(text)
 
 would output:
 
-```
+``` 
 --- Original
 +++ Current
 @@ -1,3 +1,3 @@
  foo
--bar
-+baz
+bae
++buz
 ```
 
