@@ -30,8 +30,8 @@ be output to an io.Writer or returned as a string.
 
 ```Go
 diff := difflib.UnifiedDiff{
-    A:        difflib.SplitLines("foo\nbar\n"),
-    B:        difflib.SplitLines("foo\nbaz\n"),
+    A: production      difflib.SplitLines("foo\nbar\n"),
+    B: development    difflib.SplitLines("foo\nbaz\n"),
     FromFile: "Original",
     ToFile:   "Current",
     Context:  3,
